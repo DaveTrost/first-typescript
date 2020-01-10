@@ -1,0 +1,33 @@
+{
+  "name": "first-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greeter.js",
+  "scripts": {
+    "lint": "eslint src --ext ts",
+    "test": "tsc && mocha dist/**/*.spec.js."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveTrost/first-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaveTrost/first-typescript/issues"
+  },
+  "homepage": "https://github.com/DaveTrost/first-typescript#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.1.6",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.4",
+    "typescript-eslint-parser": "^22.0.0"
+  }
+}
